@@ -31,8 +31,10 @@ namespace VoiceGPT {
             // Creates an instance of a speech config with specified subscription key and service region.
             // Replace with your own subscription key and service region (e.g., "westus").
             // The default language is "en-us".
-            var config = SpeechConfig.FromSubscription("98a147ddcd8847ed80aa85fac2f85801", "eastasia");
+            var config = SpeechConfig.FromSubscription("c7cbf01e97b141c28ec68e59cac7ab92", "westus");
             config.SpeechSynthesisLanguage = language;
+            // Note: the voice setting will not overwrite the voice element in input SSML.
+            config.SpeechSynthesisVoiceName = "zh-CN-XiaoshuangNeural";
 
             // Creates a speech synthesizer using the default speaker as audio output.
             using (var synthesizer = new SpeechSynthesizer(config)) {

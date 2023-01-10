@@ -20,7 +20,7 @@ namespace VoiceGPT {
 
                 var client = new HttpClient();
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(
-                    "Bearer", "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");
+                    "Bearer", "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");
 
                 var dict = new Dictionary<string, object>();
                 dict.Add("model", "text-davinci-003");

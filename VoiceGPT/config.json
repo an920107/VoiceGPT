@@ -1,0 +1,13 @@
+﻿{
+    "info": "還沒有實作，更改這個 config 檔不會影響結果。",
+
+    "language": "zh-TW",
+    "gptPrefix": "請用情侶的口吻、親密的語氣回覆我。",
+    "gptKey": "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",
+    "7697Host": "http://192.168.0.1/",
+    "speechRecognitionKey": "98a147ddcd8847ed80aa85fac2f85801",
+    "speechRecognitionArea": "eastasia",
+    "speechSynthesisKey": "c7cbf01e97b141c28ec68e59cac7ab92",
+    "speechSynthesisArea": "westus",
+    "speechSynthesisVoiceName": "zh-CN-XiaoshuangNeural"
+}
